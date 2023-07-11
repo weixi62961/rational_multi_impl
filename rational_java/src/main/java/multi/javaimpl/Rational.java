@@ -11,7 +11,7 @@ package multi.javaimpl;
 // final class 不可被继承
 // 实现 Comparable 接口，可用于排序，作为HashMap的key等
 public final class Rational implements Comparable<Rational> {
-    // 成员 final，构造后不可变。
+    // 字段 final，构造后不可变。
     private final int numer;
     private final int denom;
 
@@ -114,12 +114,12 @@ public final class Rational implements Comparable<Rational> {
 
     /**
      * 实现 Comparable 接口
-     * @param o the object to be compared.
+     * @param that the object to be compared.
      * @return
      */
     @Override
-    public int compareTo(Rational o) {
-        return numer * o.denom - denom * o.numer;
+    public int compareTo(Rational that) {
+        return this.numer * that.denom - this.denom * that.numer;
     }
 
     /**

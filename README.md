@@ -1,12 +1,13 @@
 # rational_multi_impl
 
 ## 背景
-在读《Scala编程》过程中，书中使用了Rational的例子。我想尝试使用多语言（Java/Scala/Python)等来实现Rational，通过实例快速对比各个语言的的特性。
+在读《Scala编程》过程中，书中使用了有理数类Rational的例子，比较典型。
+本项目尝试使用多语言（Java/Scala/Python)来实现Rational，通过实例快速对比各个语言的的特性。
 
 ## 已实现
 - 详见每个语言版本下的README.
 - [x] rational_java: Java版本
-- [ ] rational_scala: Scala版本
+- [x] rational_scala: Scala版本
 - [ ] rational_python: Python版本
 
 ## 有理数 Rational 类规格定义
@@ -19,4 +20,4 @@
 5. 支持有理数直接打印print，结果是n/d，例如1/2
 6. 有理数的内部表示是要化简为正规化的，例如1/2，不能是4/8。
 7. 有理数类是不可变的，所有操作返回一个新的有理数实例
-8. 负有理数，仅分子为负数。 分母永远为正数。
+8. 对于负数有理数，仅分子为负数, 分母永远为正数。

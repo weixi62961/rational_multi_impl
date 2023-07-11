@@ -13,7 +13,7 @@
 - Java中 == 操作符会比较对象引用，而非对象内容。
 - 对象内容比较，需要覆盖 Object类的 equals 方法与 hashCode 方法
 ### 排序及大小比较
-- 实现 Comparable<T> 接口中， CompareTo 方法。用于集合或Map Key的比较排序。
+- 实现 Comparable<T> 接口中， compareTo 方法。用于集合或Map Key的比较排序。
 
 ## 2. 客户端调用样例
 ```java
@@ -23,3 +23,7 @@ Rational r2 = new Rational(1, 6);
 Rational r = r1.add(r2);
 System.out.println(r1 + " + " + r2 + " = " + r );
 ```
+
+## 参考资料
+- [RationalNumber](https://www.unf.edu/~wkloster/2551/progs/chap06/RationalNumber.java)
+- [A class for rational numbers](https://ucsb-cs56-pconrad.github.io/tutorials/rational/)
