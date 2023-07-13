@@ -8,7 +8,7 @@
 - 详见每个语言版本下的README.
 - [x] rational_java: Java版本
 - [x] rational_scala: Scala版本
-- [ ] rational_python: Python版本
+- [x] rational_python: Python版本
 
 ## 有理数 Rational 类规格定义
 有理数是可以用整数比例表示的数，例如1/3， 5/18等。 有理数是精确表示。
